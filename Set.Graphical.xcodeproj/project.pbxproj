@@ -8,20 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		BEC84416224A9AB600293C69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC84415224A9AB600293C69 /* AppDelegate.swift */; };
-		BEC84418224A9AB600293C69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC84417224A9AB600293C69 /* ViewController.swift */; };
-		BEC8441B224A9AB600293C69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC84419224A9AB600293C69 /* Main.storyboard */; };
 		BEC8441D224A9AB700293C69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC8441C224A9AB700293C69 /* Assets.xcassets */; };
 		BEC84420224A9AB700293C69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC8441E224A9AB700293C69 /* LaunchScreen.storyboard */; };
+		BEC84428224A9B1E00293C69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC84427224A9B1E00293C69 /* Main.storyboard */; };
+		BEC84431224A9B5600293C69 /* PlayingBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC84429224A9B5600293C69 /* PlayingBoardView.swift */; };
+		BEC84432224A9B5600293C69 /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC8442A224A9B5600293C69 /* PlayingCard.swift */; };
+		BEC84433224A9B5600293C69 /* DiamondCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC8442B224A9B5600293C69 /* DiamondCardView.swift */; };
+		BEC84434224A9B5600293C69 /* OvalCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC8442C224A9B5600293C69 /* OvalCardView.swift */; };
+		BEC84435224A9B5600293C69 /* PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC8442D224A9B5600293C69 /* PlayingCardDeck.swift */; };
+		BEC84436224A9B5600293C69 /* SquigglyCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC8442E224A9B5600293C69 /* SquigglyCardView.swift */; };
+		BEC84437224A9B5600293C69 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC8442F224A9B5600293C69 /* Grid.swift */; };
+		BEC84438224A9B5600293C69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC84430224A9B5600293C69 /* ViewController.swift */; };
+		BEC8443A224A9B8300293C69 /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC84439224A9B8300293C69 /* Set.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BEC84412224A9AB600293C69 /* Set.Graphical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Set.Graphical.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC84415224A9AB600293C69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BEC84417224A9AB600293C69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BEC8441A224A9AB600293C69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEC8441C224A9AB700293C69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEC8441F224A9AB700293C69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEC84421224A9AB700293C69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEC84427224A9B1E00293C69 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BEC84429224A9B5600293C69 /* PlayingBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayingBoardView.swift; sourceTree = "<group>"; };
+		BEC8442A224A9B5600293C69 /* PlayingCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; };
+		BEC8442B224A9B5600293C69 /* DiamondCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiamondCardView.swift; sourceTree = "<group>"; };
+		BEC8442C224A9B5600293C69 /* OvalCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OvalCardView.swift; sourceTree = "<group>"; };
+		BEC8442D224A9B5600293C69 /* PlayingCardDeck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayingCardDeck.swift; sourceTree = "<group>"; };
+		BEC8442E224A9B5600293C69 /* SquigglyCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquigglyCardView.swift; sourceTree = "<group>"; };
+		BEC8442F224A9B5600293C69 /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		BEC84430224A9B5600293C69 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEC84439224A9B8300293C69 /* Set.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Set.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +70,17 @@
 		BEC84414224A9AB600293C69 /* Set.Graphical */ = {
 			isa = PBXGroup;
 			children = (
+				BEC84439224A9B8300293C69 /* Set.swift */,
+				BEC8442B224A9B5600293C69 /* DiamondCardView.swift */,
+				BEC8442F224A9B5600293C69 /* Grid.swift */,
+				BEC8442C224A9B5600293C69 /* OvalCardView.swift */,
+				BEC84429224A9B5600293C69 /* PlayingBoardView.swift */,
+				BEC8442A224A9B5600293C69 /* PlayingCard.swift */,
+				BEC8442D224A9B5600293C69 /* PlayingCardDeck.swift */,
+				BEC8442E224A9B5600293C69 /* SquigglyCardView.swift */,
+				BEC84430224A9B5600293C69 /* ViewController.swift */,
+				BEC84427224A9B1E00293C69 /* Main.storyboard */,
 				BEC84415224A9AB600293C69 /* AppDelegate.swift */,
-				BEC84417224A9AB600293C69 /* ViewController.swift */,
-				BEC84419224A9AB600293C69 /* Main.storyboard */,
 				BEC8441C224A9AB700293C69 /* Assets.xcassets */,
 				BEC8441E224A9AB700293C69 /* LaunchScreen.storyboard */,
 				BEC84421224A9AB700293C69 /* Info.plist */,
@@ -122,9 +146,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEC84428224A9B1E00293C69 /* Main.storyboard in Resources */,
 				BEC84420224A9AB700293C69 /* LaunchScreen.storyboard in Resources */,
 				BEC8441D224A9AB700293C69 /* Assets.xcassets in Resources */,
-				BEC8441B224A9AB600293C69 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +159,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEC84418224A9AB600293C69 /* ViewController.swift in Sources */,
+				BEC8443A224A9B8300293C69 /* Set.swift in Sources */,
+				BEC84436224A9B5600293C69 /* SquigglyCardView.swift in Sources */,
+				BEC84431224A9B5600293C69 /* PlayingBoardView.swift in Sources */,
+				BEC84433224A9B5600293C69 /* DiamondCardView.swift in Sources */,
+				BEC84438224A9B5600293C69 /* ViewController.swift in Sources */,
+				BEC84437224A9B5600293C69 /* Grid.swift in Sources */,
+				BEC84432224A9B5600293C69 /* PlayingCard.swift in Sources */,
+				BEC84435224A9B5600293C69 /* PlayingCardDeck.swift in Sources */,
+				BEC84434224A9B5600293C69 /* OvalCardView.swift in Sources */,
 				BEC84416224A9AB600293C69 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +175,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BEC84419224A9AB600293C69 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BEC8441A224A9AB600293C69 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BEC8441E224A9AB700293C69 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
